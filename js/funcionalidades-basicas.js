@@ -79,6 +79,35 @@ $(document).ready(function(){
         qtdPara++;
     });
 
+    /* ############# Animação ######################################### */
+
+    // animação 
+    $("#animateBtn").click(function(){
+        $("#testeAnimacao").animate({
+            width: "100%",
+        }, 2000, function(){
+            // quando finalizar a animação 
+            $("#testeAnimacao").css("background-color", "#00ff00");
+            $("#testeAnimacao").html("Animação finalizada");
+        });
+    });
+
+    //slide down
+    $('#slideDown').click(function(){
+        $("#testeAnimacao").slideDown();
+    });
+
+    // slide up
+    $('#slideUp').click(function(){
+        $("#testeAnimacao").slideUp();
+    });
+
+    // slide toggle
+    $('#slideToggle').click(function(){
+        $("#testeAnimacao").slideToggle();
+    });
+    /* #################################################################### */
+
   
 
 
