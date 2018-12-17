@@ -1,4 +1,4 @@
 # jquery-iniciando
 Estudo sobre jquery
 
-https://clayder.github.io/jquery-iniciando/
+Projeto prático: https://clayder.github.io/jquery-iniciando/
